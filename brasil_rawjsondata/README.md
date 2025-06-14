@@ -41,7 +41,7 @@ direto do arquivo, foco Brasil.
 
 ## 🍓 Frutas Brasil
 ### brbo_frutas
-🔗 [rjd_brasil_bot_frutas](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_botanica/rjd_brasil_bot_frutas.json)
+📂 [rjd_brasil_bot_frutas](https://github.com/codebabel-appbag/rawjsondata/tree/main/brasil_rawjsondata/brasil_botanica)
 
 ## 📅 Campos
 ### brbo_frutas_cam
@@ -94,7 +94,7 @@ https://bit.ly/43I9VS1
 
 ## brasil_geo_2025
 ### brge_geo
-🔗 [rjd_brasil_geo_2025](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json)
+📂 [rjd_brasil_geo_2025](https://github.com/codebabel-appbag/rawjsondata/tree/main/brasil_rawjsondata/brasil_geografia)
 
 ## 📅 Campos
 ### brge_geo_cam
@@ -125,7 +125,7 @@ data  : 30/05/25
 ## 🔥 Endpoint
 ### brge_geo_end
 ```
-https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json
+hhttps://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json
 ```
 ## 🔥 Endpoint (link curto)
 ```
@@ -146,7 +146,7 @@ https://bit.ly/4jSK1zP
 
 ## 👥 Brasil Nomes Femininos
 ### brge_nomes_fem
-🔗 [rjd_brasil_geo_nomesfemininos](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_nomes/rjd_brasil_nomes_femininos.json)
+📂 [rjd_brasil_nomes_femininos](https://github.com/codebabel-appbag/rawjsondata/tree/main/brasil_rawjsondata/brasil_nomes)
 
 ## 📅 Campos
 ### brge_nomesfem_cam
@@ -176,7 +176,7 @@ https://bit.ly/406CHcC
 ```
 [☝ Retornar ao início](#inicio)
 
-## 🔫 Gatilhos Geo: nomes_femininos
+## 🔫 Gatilhos nomes: femininos
 ```bash
 ['nomes_femininos'] ~> global
 ['nomes_femininos']['index']
@@ -188,7 +188,7 @@ https://bit.ly/406CHcC
 
 ## 👥 Brasil Nomes Masculinos
 ### brge_nomes_mas
-🔗 [rjd_brasil_geo_nomesmasculinos]()
+📂 [rjd_brasil_nomes_masculinos]()
 
 ## 📅 Campos
 ### brge_nomesmas_cam
@@ -216,7 +216,7 @@ data  : 30/05/25
 
 ## 🚗 Brasil Carros Lançados
 ### brge_carros_lan
-🔗 [rjd_brasil_geo_carroslancados]()
+📂 [rjd_brasil_carros_lancados]()
 
 ## 📅 Campos
 ### brge_carroslan_cam
@@ -249,7 +249,7 @@ data  : 30/05/25
 
 ## 🚛 Brasil Carros Nacionais 🚛
 ### brge_carros_br
-🔗 [rjd_brasil_geo_carroslancados]()
+📂 [rjd_brasil_carros_nacionais]()
 
 ## 📅 Campos
 ### brge_carrosbr_cam
@@ -291,39 +291,58 @@ data  : 30/05/25
 ### brcl_py
 ```python
 # proto: client.py ~> local file. [run]> python client.py or python3 client.py
-
 # python client - Endpoint ~> url
 import requests
-url='https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_estados.json'
 
-req=requests.get(url)
+ura='https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json'
+
+urb='https://bit.ly/4jSK1zP'
+
+URL=urb
+req=requests.get(URL)
 dic=req.json()
 
 # preview data
 print(req, end='\n\n')
-print(dic)
+#print(dic)
 
 # Obtendo index para verificar o dicionário.
 rjd_index=dic["Brasil"]["index"]
-print('index: \n', rjd_index, end='\n\n')
+estado_index=rjd_index["rio de janeiro"]
+dados_rj=dic["Brasil"]["019"]
+ddd_rj=dados_rj["estado_ddd"]
+#print('index: \n', rjd_index, end='\n\n')
+#print('Brasil Capital: \n', estado_index)
+#print('Rio de janeiro dados: \n', dados_rj)
+print('Rio de janeiro ddd: \n', ddd_rj)
 
 # demais detalhes 
 rjd_detalhes=dic["Brasil"]["detalhes"]
 brasil_estados_quantidade=rjd_detalhes["brasil_estados"]
-print(rjd_detalhes)
-print('Brasil estados : ', brasil_estados_quantidade)
+#print(rjd_detalhes)
+#print('Brasil estados : ', brasil_estados_quantidade)
+
+rjd_rawjsondata=dic["Brasil"]["rawjsondata"]
+ordem=rjd_rawjsondata["ordem"]
+gatilhos=rjd_rawjsondata["gatilhos"]
+#print('codebabel ~ rawjsondata\n\n', rjd_rawjsondata)
+#print('ordem: \n', ordem)
+#print('gatilho: \n', gatilhos)
+
 
 # pegando dados "Acre"
 estado_acre=dic["Brasil"]["001"]
-print('dados Acre: \n', estado_acre)
+#print('dados Acre: \n', estado_acre)
 ```
 ```python
 rjd_index=dic["Brasil"]["index"]
+estado_index=rjd_index["rio de janeiro"] # ~> 019
+dados_rj=["Brasil"]["019"]
 print(rjd_index)
 
-""" retorno terminal """
-#>>> index: 
- #    {'Acre': '001', 'Alagoas': '002', 'Amapá': '003', 'Amazonas': '004', 'Bahia': '005', ... }
+""" retorno terminal obs.: index por nome, sem acentuação."""
+#>>> index:  
+ #    {'acre': '001', 'alagoas': '002', 'amapa': '003', 'amazonas': '004', 'bahia': '005', ... }
 ```
 [☝ Retornar ao início](#inicio)
 
@@ -390,6 +409,7 @@ if ($response !== false) {
 | 0.0.9 | rawjsondata  | adequação README|
 | 0.1.0 | rawjsondata  | gatilho no json |
 | 0.1.1 | rawjsondata  | gatilhos README |
+| 0.1.2 | rawjsondata  |    tools md     |
 
 ## 💜 Obrigado 🧡
 ~~~

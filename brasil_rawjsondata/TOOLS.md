@@ -7,7 +7,7 @@
 ```
 Edição final, padronização de tamanho (650x650), geração de modelo base (*.psd).
 ```
-🔗 [**Photopea ~> (WPA)**](https://www.iloveimg.com/pt) ( https://www.iloveimg.com/pt )
+🔗 [**Photopea ~> (WPA)**](https://www.photopea.com/) ( https://www.photopea.com/ )
 
 ### 🧩 Convert.io (multi-ferramenta)
 ```
