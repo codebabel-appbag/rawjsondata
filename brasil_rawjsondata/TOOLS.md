@@ -15,7 +15,7 @@ Conversão de arquivos para diversos formatos, no nosso caso, arquivos de imagem
 ```
 🔗 [**Convert.io ~> (Web)**](https://convertio.co/pt/) ( https://convertio.co/pt/ )
 
-### 🧩 I💙IMG (Y love img)
+### 🧩 I💙IMG (I love img)
 ```
 Remoção precisa e rápida de fundo de diversas imagens, facilitou muito...
 ```
