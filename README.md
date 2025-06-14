@@ -32,6 +32,5 @@ Ao clicar nos links das pastas será direcionado para a categoria escolhida.
 
 # 🕹 games_rawjsondata
 ### ga_rjd_f
-```
+
 📂 * in development, not created yet!
-```
