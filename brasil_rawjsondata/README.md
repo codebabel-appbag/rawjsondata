@@ -188,7 +188,7 @@ https://bit.ly/406CHcC
 
 ## 👥 Brasil Nomes Masculinos
 ### brge_nomes_mas
-📂 [rjd_brasil_nomes_masculinos]()
+📂 [rjd_brasil_nomes_masculinos](https://github.com/codebabel-appbag/rawjsondata/tree/main/brasil_rawjsondata/brasil_nomes)
 
 ## 📅 Campos
 ### brge_nomesmas_cam
@@ -210,7 +210,12 @@ data  : 30/05/25
 ## 🔥 Endpoint
 ### brge_nomesmas_end
 ```
-! em desenvolvimento...
+https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_nomes/rjd_brasil_nomes_masculinos.json
+```
+
+## 🔥 Endpoint (link curto)
+```
+https://bit.ly/3ZuNkGa
 ```
 [☝ Retornar ao início](#inicio)
 
@@ -418,6 +423,7 @@ if ($response !== false) {
 | 0.1.1 | rawjsondata  | gatilhos README |
 | 0.1.2 | rawjsondata  |    tools md     |
 | 0.1.3 | rawjsondata  | index estados   |
+| 0.1.4 | rawjsondata  | include json    |
 
 ## 💜 Obrigado 🧡
 ~~~
