@@ -102,7 +102,7 @@
 
     "rawjsondata": {
       "nome":"rjd_brasil_nomes_femininos.json",
-      "categoria":"geografia",
+      "categoria":"nomes",
       "foco":"nomes femininos brasileiros",
       "ordem":"alfabética (a-z)",
       "gatilhos":[
