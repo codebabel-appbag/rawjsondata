@@ -381,7 +381,7 @@ $ura='https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/
 
 $urb='https://bit.ly/4jSK1zP';
 
-$url=urb;
+$url=$urb;
 $response = @file_get_contents($url);
 
 if ($response !== false) {
