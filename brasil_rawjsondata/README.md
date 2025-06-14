@@ -350,10 +350,13 @@ print(rjd_index)
 ### brcl_js
 ```javascript
 // proto: client.js ~> local file. [run]> node client.js
-
 // Javascript client - Endpoint ~> const url
-const url='https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_estados.json'
 
+const ura='https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json';
+
+const urb='https://bit.ly/4jSK1zP';
+
+const url=urb;
 fetch(url)
   .then(response => response.json())
   .then(data => {
@@ -372,9 +375,13 @@ fetch(url)
 ```php
 <?php
 # proto: client.php ~> local file. [run]> php client.php
-
 # php cliente - Endpoint ~> $url
-$url='https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_estados.json';
+
+$ura='https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json';
+
+$urb='https://bit.ly/4jSK1zP';
+
+$url=urb;
 $response = @file_get_contents($url);
 
 if ($response !== false) {
@@ -410,6 +417,7 @@ if ($response !== false) {
 | 0.1.0 | rawjsondata  | gatilho no json |
 | 0.1.1 | rawjsondata  | gatilhos README |
 | 0.1.2 | rawjsondata  |    tools md     |
+| 0.1.3 | rawjsondata  | index estados   |
 
 ## 💜 Obrigado 🧡
 ~~~
