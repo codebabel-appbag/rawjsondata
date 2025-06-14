@@ -1,10 +1,9 @@
 #  [![](https://i.postimg.cc/wBPhM5Lv/jackal-11-24-v2-32-inverted.png)]()  CODEBABEL
 
-### inicio
-# brasil_rawjsondata
-## 📃 Descrição
+# rawjsondata
+## 📁 pasta global
 ```
-rawjsondata/rjd: json para testes, com atualização mensal, sem login, sem necessidade de cadastro, direto do arquivo, foco Brasil. Ao clicar nos links das pastas será direcionado para a categoria escolhida.
+rawjsondata/rjd: pasta global que reune todos os projetos rawjsondata. Ao clicar nos links das pastas será direcionado para a categoria escolhida.
 ```
 [![](https://i.postimg.cc/28XCfSZj/rjd-banner.png)]()
 
