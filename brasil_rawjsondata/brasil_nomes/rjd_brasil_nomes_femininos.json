@@ -1,0 +1,603 @@
+{
+  "nomes_femininos": {
+    "index": {
+      "001":"Abigail",
+      "002":"Adriana",
+      "003":"Aline",
+      "004":"Amanda",
+      "005":"Ana",
+      "006":"Antônia",
+      "007":"Aparecida",
+      "008":"Ariana",
+      "009":"Beatriz",
+      "010":"Bianca",
+      "011":"Bruna",
+      "012":"Camila",
+      "013":"Carla",
+      "014":"Carolina",
+      "015":"Cássia",
+      "016":"Catarina",
+      "017":"Cecília",
+      "018":"Clara",
+      "019":"Cláudia",
+      "020":"Cristina",
+      "021":"Daniela",
+      "022":"Débora",
+      "023":"Diana",
+      "024":"Eduarda",
+      "025":"Elaine",
+      "026":"Elen",
+      "027":"Érica",
+      "028":"Estela",
+      "029":"Ester",
+      "030":"Fabiana",
+      "031":"Fernanda",
+      "032":"Flávia",
+      "033":"Gabriela",
+      "034":"Geovana",
+      "035":"Gisele",
+      "036":"Helena",
+      "037":"Hortência",
+      "038":"Iara",
+      "039":"Isabel",
+      "040":"Ísis",
+      "041":"Ítala",
+      "042":"Janaína",
+      "043":"Joana",
+      "044":"Júlia",
+      "045":"Juliana",
+      "046":"Laís",
+      "047":"Larissa",
+      "048":"Laura",
+      "049":"Leila",
+      "050":"Leticia",
+      "051":"Lívia",
+      "052":"Luana",
+      "053":"Lucasia",
+      "054":"Luciana",
+      "055":"Luísa",
+      "056":"Maíra",
+      "057":"Manuela",
+      "058":"Marcela",
+      "059":"Márcia",
+      "060":"Maria",
+      "061":"Mariana",
+      "062":"Marina",
+      "063":"Marta",
+      "064":"Melissa",
+      "065":"Micaela",
+      "066":"Natália",
+      "067":"Nicole",
+      "068":"Olívia",
+      "069":"Patrícia",
+      "070":"Paula",
+      "071":"Poliana",
+      "072":"Priscila",
+      "073":"Rafaela",
+      "074":"Raquel",
+      "075":"Rebeca",
+      "076":"Regina",
+      "077":"Renata",
+      "078":"Roberta",
+      "079":"Sabrina",
+      "080":"Samanta",
+      "081":"Sara",
+      "082":"Sofia",
+      "083":"Soraia",
+      "084":"Susana",
+      "085":"Tainá",
+      "086":"Talita",
+      "087":"Tamara",
+      "088":"Tatiana",
+      "089":"Teresa",
+      "090":"Valéria",
+      "091":"Vanessa",
+      "092":"Verônica",
+      "093":"Vitória"
+    },
+
+    "detalhes": {
+      "nomes_tempo":"lista mista de nomes antigos e atuais."
+    },
+
+    "rawjsondata": {
+      "nome":"rjd_brasil_geo_nomesfemininos.json",
+      "categoria":"geografia",
+      "foco":"nomes femininos brasileiros",
+      "ordem":"alfabética (a-z)",
+      "gatilhos":[
+        "['nomes_femininos'] ~> global",
+        "['nomes_femininos']['index']",
+        "['nomes_femininos']['detalhes']",
+        "['nomes_femininos']['rawjsondata'] ~> rawjsondata info (*dev)",
+        "['nomes_femininos']['001'] ~> (primeiro nome)",
+        "['nomes_femininos']['093'] ~> (último nome)"
+      ],
+      "autor":"codebabel",
+      "colaboradores":"",
+      "data":"30/05/2025",
+      "versao":"0.0.1",
+      "rjd_chave_global":[
+        "nomes_femininos",
+        "index",
+        "detalhes",
+        "rawjsondata"
+      ],
+      "rjd_chaves":96,
+      "nomes_faixa":"001/093",
+      "nomes_quantidade":"93",
+      "nomes_campos":[
+        "nome",
+        "origem",
+        "significado"
+      ]
+    },
+
+    "001":{
+      "nome": "Abigail",
+      "origem": "Hebraico",
+      "significado": "Meu pai é alegria"
+    },
+    "002":{
+      "nome": "Adriana",
+      "origem": "Latim",
+      "significado": "Natural de Ádria"
+    },
+    "003":{
+      "nome": "Aline",
+      "origem": "Germânico (Adalina)",
+      "significado": "Nobre , de linhagem nobre"
+    },
+    "004":{
+      "nome": "Amanda",
+      "origem": "Latim",
+      "significado": "Amável, digna de amor"
+    },
+    "005":{
+      "nome": "Ana",
+      "origem": "Hebraico (Hannah)",
+      "significado": "Graciosa , cheia de graça"
+    },
+    "006":{
+      "nome": "Antônia",
+      "origem": "Latim",
+      "significado": "Inestimável , de valor incalculável"
+    },
+    "007":{
+      "nome": "Aparecida",
+      "origem": "Latim (alusão a Nossa Senhora Aparecida)",
+      "significado": "A que apareceu"
+    },
+    "008":{
+      "nome": "Ariana",
+      "origem": "Grego",
+      "significado": "A mais santa"
+    },
+    "009":{
+      "nome": "Beatriz",
+      "origem": "Latim",
+      "significado": "A que traz felicidade , viajante da vida"
+    },
+    "010":{
+      "nome": "Bianca",
+      "origem": "Italiano",
+      "significado": "Branca, pura"
+    },
+    "011":{
+      "nome": "Bruna",
+      "origem": "Germânico",
+      "significado": "Morena, de pele escura"
+    },
+    "012":{
+      "nome": "Camila",
+      "origem": "Latim",
+      "significado": "Mensageira, jovem cerimonial"
+    },
+    "013":{
+      "nome": "Carla",
+      "origem": "Germânico (Karla)",
+      "significado": "Mulher forte, forte como um homem"
+    },
+    "014":{
+      "nome": "Carolina",
+      "origem": "Germânico (Karl)",
+      "significado": "Mulher forte, canção da alegria"
+    },
+    "015":{
+      "nome": "Cássia",
+      "origem": "Grego",
+      "significado": "Perfume, acácia"
+    },
+    "016":{
+      "nome": "Catarina",
+      "origem": "Grego (Aikaterine)",
+      "significado": "Pura"
+    },
+    "017":{
+      "nome": "Cecília",
+      "origem": "Latim",
+      "significado": "Cega (sentido figurado: aquela que não se deixa levar pelas aparências)"
+    },
+    "018":{
+      "nome": "Clara",
+      "origem": "Latim",
+      "significado": "Brilhante, ilustre"
+    },
+    "019":{
+      "nome": "Cláudia",
+      "origem": "Latim",
+      "significado": "Coxa (sentido figurado: aquela que manca, mas segue em frente)"
+    },
+    "020":{
+      "nome": "Cristiana",
+      "origem": "Grego/Latim",
+      "significado": "Seguidora de Cristo"
+    },
+    "021":{
+      "nome": "Daniela",
+      "origem": "Hebraico (Daniyyel)",
+      "significado": "Deus é meu juiz"
+    },
+    "022":{
+      "nome": "Débora",
+      "origem": "Hebraico",
+      "significado": "Abelha"
+    },
+    "023":{
+      "nome": "Diana",
+      "origem": "Latim",
+      "significado": "Divina, a caçadora"
+    },
+    "024":{
+      "nome": "Eduarda",
+      "origem": "Germânico (Eadweard)",
+      "significado": "Guardiã rica, protetora das riquezas"
+    },
+    "025":{
+      "nome": "Elaine",
+      "origem": "Grego (Helene)",
+      "significado": "Tocha, luz"
+    },
+    "026":{
+      "nome": "Elen",
+      "origem": "Grego (Helene)",
+      "significado": "Tocha, luz"
+    },
+    "027":{
+      "nome": "Érica",
+      "origem": "Germânico (Eiríkr)",
+      "significado": "Soberana, eterna"
+    },
+    "028":{
+      "nome": "Estela",
+      "origem": "Latim",
+      "significado": "Estrela"
+    },
+    "029":{
+      "nome": "Ester",
+      "origem": "Persa",
+      "significado": "Estrela"
+    },
+    "030":{
+      "nome": "Fabiana",
+      "origem": "Latim (Fabianus)",
+      "significado": "Pertencente à família de Fábio, cultivadora de favas"
+    },
+    "031":{
+      "nome": "Fernanda",
+      "origem": "Germânico (Frithunanth)",
+      "significado": "Ousada para atingir a paz, viajante corajosa"
+    },
+    "032":{
+      "nome": "Flávia",
+      "origem": "Latim (Flavius)",
+      "significado": "Dourada, loira"
+    },
+    "033":{
+      "nome": "Gabriela",
+      "origem": "Hebraico (Gavri'el)",
+      "significado": "Mulher de Deus, fortaleza de Deus"
+    },
+    "034":{
+      "nome": "Geovana",
+      "origem": "Italiano (Giovanna) / Hebraico (Yohanan)",
+      "significado": "Deus é gracioso"
+    },
+    "035":{
+      "nome": "Gisele",
+      "origem": "Germânico (Gisila)",
+      "significado": "Refém nobre, penhor"
+    },
+    "036":{
+      "nome": "Helena",
+      "origem": "Grego (Helene)",
+      "significado": "Tocha, luz"
+    },
+    "037":{
+      "nome": "Hortência",
+      "origem": "Latim (Hortensius)",
+      "significado": "Jardineira"
+    },
+    "038":{
+      "nome": "Iara",
+      "origem": "Tupi-Guarani",
+      "significado": "Senhora das águas, mãe d'água"
+    },
+    "039":{
+      "nome": "Isabel",
+      "origem": "Hebraico ('Elisheva')",
+      "significado": "Meu Deus é juramento, consagrada a Deus"
+    },
+    "040":{
+      "nome": "Ísis",
+      "origem": "Egípcio",
+      "significado": "Trono"
+    },
+    "041":{
+      "nome": "Ítala",
+      "origem": "Grego",
+      "significado": "Da Itália"
+    },
+    "042":{
+      "nome": "Janaína",
+      "origem": "Africano (Iorubá - Yemọja)",
+      "significado": "Rainha do mar"
+    },
+    "043":{
+      "nome": "Joana",
+      "origem": "Hebraico (Yohanan)",
+      "significado": "Deus é gracioso"
+    },
+    "044":{
+      "nome": "Júlia",
+      "origem": "Latim (Iulius)",
+      "significado": "Jovem, cheia de juventude"
+    },
+    "045":{
+      "nome": "Juliana",
+      "origem": "Latim (Iulianus)",
+      "significado": "Descendente de Júlio, jovem"
+    },
+    "046":{
+      "nome": "Laís",
+      "origem": "Grego",
+      "significado": "A popular"
+    },
+    "047":{
+      "nome": "Larissa",
+      "origem": "Grego",
+      "significado": "Alegre, risonha (nome de uma cidade grega)"
+    },
+    "048":{
+      "nome": "Laura",
+      "origem": "Latim",
+      "significado": "Coroada de louros, vitoriosa"
+    },
+    "049":{
+      "nome": "Leila",
+      "origem": "Árabe",
+      "significado": "Escura como a noite"
+    },
+    "050":{
+      "nome": "Leticia",
+      "origem": "Latim (Laetitia)",
+      "significado": "Alegria, contentamento"
+    },
+    "051":{
+      "nome": "Lívia",
+      "origem": "Latim",
+      "significado": "Pálida, lívida (nome de uma importante família romana)"
+    },
+    "052":{
+      "nome": "Luana",
+      "origem": "Havaiano/Português",
+      "significado": "Lua cheia"
+    },
+    "053":{
+      "nome": "Lucasia",
+      "origem": "Latim (Lucas)",
+      "significado": "A que ilumina"
+    },
+    "054":{
+      "nome": "Luciana",
+      "origem": "Latim (Lucianus)",
+      "significado": "Nascida na luz, luminosa"
+    },
+    "055":{
+      "nome": "Luísa",
+      "origem": "Germânico (Hludwig)",
+      "significado": "Guerreira gloriosa, combatente famosa"
+    },
+    "056":{
+      "nome": "Maíra",
+      "origem": "Tupi",
+      "significado": "A estrangeira, a que veio de longe"
+    },
+    "057":{
+      "nome": "Manuela",
+      "origem": "Hebraico (Immanuel)",
+      "significado": "Deus está conosco"
+    },
+    "058":{
+      "nome": "Marcela",
+      "origem": "Latim (Marcellus)",
+      "significado": "Jovem guerreira, pequena guerreira"
+    },
+    "059":{
+      "nome": "Márcia",
+      "origem": "Latim (Marcius)",
+      "significado": "Dedicada a Marte (deus romano da guerra)"
+    },
+    "060":{
+      "nome": "Maria",
+      "origem": "Hebraico (Miryam)",
+      "significado": "Senhora soberana, a escolhida, pura (significado incerto e debatido)"
+    },
+    "061":{
+      "nome": "Mariana",
+      "origem": "Hebraico/Latim",
+      "significado": "Senhora graciosa, a pura e graciosa (combinação de Maria e Ana)"
+    },
+    "062":{
+      "nome": "Marina",
+      "origem": "Latim (Marinus)",
+      "significado": "A que vive perto do mar"
+    },
+    "063":{
+      "nome": "Marta",
+      "origem": "Aramaico",
+      "significado": "Senhora, dona de casa"
+    },
+    "064":{
+      "nome": "Melissa",
+      "origem": "Grego",
+      "significado": "Abelha, doce como o mel"
+    },
+    "065":{
+      "nome": "Micaela",
+      "origem": "Hebraico (Mikha'el)",
+      "significado": "Quem é como Deus?"
+    },
+    "066":{
+      "nome": "Natália",
+      "origem": "Latim (Natalis)",
+      "significado": "Nascimento (referente ao Natal)"
+    },
+    "067":{
+      "nome": "Nicole",
+      "origem": "Grego (Nikolaos)",
+      "significado": "Vitória do povo"
+    },
+    "068":{
+      "nome": "Olívia",
+      "origem": "Latim (Oliva)",
+      "significado": "Azeitona, a pacífica"
+    },
+    "069":{
+      "nome": "Patrícia",
+      "origem": "Latim (Patricius)",
+      "significado": "Nobre, de linhagem nobre"
+    },
+    "070":{
+      "nome": "Paula",
+      "origem": "Latim (Paulus)",
+      "significado": "Pequena"
+    },
+    "071":{
+      "nome": "Poliana",
+      "origem": "Inglês (combinação de Polly e Anna)",
+      "significado": "Graciosa e amável"
+    },
+    "072":{
+      "nome": "Priscila",
+      "origem": "Latim (Priscus)",
+      "significado": "Antiga, venerável"
+    },
+    "073":{
+      "nome": "Rafaela",
+      "origem": "Hebraico (Refa'el)",
+      "significado": "Deus curou"
+    },
+    "074":{
+      "nome": "Raquel",
+      "origem": "Hebraico (Rachel)",
+      "significado": "Ovelha"
+    },
+    "075":{
+      "nome": "Rebeca",
+      "origem": "Hebraico (Rivqah)",
+      "significado": "Aquela que prende, laço"
+    },
+    "076":{
+      "nome": "Regina",
+      "origem": "Latim",
+      "significado": "Rainha"
+    },
+    "077":{
+      "nome": "Renata",
+      "origem": "Latim (Renatus)",
+      "significado": "Renascida"
+    },
+    "078":{
+      "nome": "Roberta",
+      "origem": "Germânico (Hrodebert)",
+      "significado": "Glória brilhante, fama gloriosa"
+    },
+    "079":{
+      "nome": "Sabrina",
+      "origem": "Celta (nome de um rio)",
+      "significado": "Princesa"
+    },
+    "080":{
+      "nome": "Samanta",
+      "origem": "Aramaico",
+      "significado": "A que ouve, ouvinte"
+    },
+    "081":{
+      "nome": "Sara",
+      "origem": "Hebraico",
+      "significado": "Princesa"
+    },
+    "082":{
+      "nome": "Sofia",
+      "origem": "Grego (Sophia)",
+      "significado": "Sabedoria"
+    },
+    "083":{
+      "nome": "Soraia",
+      "origem": "Persa (Sorayya)",
+      "significado": "Estrela, aglomerado de estrelas (Plêiades)"
+    },
+    "084":{
+      "nome": "Susana",
+      "origem": "Hebraico (Shoshanah)",
+      "significado": "Lírio"
+    },
+    "085":{
+      "nome": "Tainá",
+      "origem": "Tupi",
+      "significado": "Estrela"
+    },
+    "086":{
+      "nome": "Talita",
+      "origem": "Aramaico",
+      "significado": "Menina"
+    },
+    "087":{
+      "nome": "Tamara",
+      "origem": "Hebraico (Tamar)",
+      "significado": "Palmeira"
+    },
+    "088":{
+      "nome": "Tatiana",
+      "origem": "Latim (Tatianus)",
+      "significado": "Pertencente à família de Tácio"
+    },
+    "089":{
+      "nome": "Teresa",
+      "origem": "Grego (Theresia)",
+      "significado": "Verão, a ceifeira (significado incerto)"
+    },
+    "090":{
+      "nome": "Valéria",
+      "origem": "Latim (Valerius)",
+      "significado": "Forte, saudável"
+    },
+    "091":{
+      "nome": "Vanessa",
+      "origem": "Literário (criado por Jonathan Swift)",
+      "significado": "Combinação de \"Van\" de Esther Vanhomrigh e \"Essa\" de seu apelido"
+    },
+    "092":{
+      "nome": "Verônica",
+      "origem": "Grego (Pherenike)",
+      "significado": "Portadora da vitória, imagem verdadeira"
+    },
+    "093":{
+      "nome": "Vitória",
+      "origem": "Latim",
+      "significado":"vitória, triunfo, sucesso"
+    }
+  }
+}
+    

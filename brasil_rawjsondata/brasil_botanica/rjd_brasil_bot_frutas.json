@@ -1,0 +1,194 @@
+{
+  "brasil_frutas": {
+    "index": {
+      "abiu":"001",
+      "acai":"002",
+      "cupuacu":"003",
+      "graviola":"004",
+      "mangaba":"005",
+      "jaca":"006",
+      "pitanga":"007",
+      "caja":"008",
+      "buriti":"009",
+      "maracuja":"010",
+      "jabuticaba":"011",
+      "tamarindo":"012",
+      "umbu":"013",
+      "acerola":"014",
+      "goiaba":"015",
+      "cacau":"016"
+    },
+
+    "detalhes":{
+      "brasil_frutas_clima":"Tropical",
+      "brasil_frutas_safra":"1 milhão de toneladas",
+      "brasil_frutas_safra_data":"2024",
+      "brasil_frutas_safra_ganho":"US$ 1,287 bilhão"
+    },
+
+    "rawjsondata": {
+      "nome":"rjd_brasil_bot_frutas.json",
+      "categoria":"botânica",
+      "foco":"Brasil frutas",
+      "ordem":"alfabética (a-z)",
+      "gatilhos":[
+        "['brasil_frutas'] ~> global",
+        "['brasil_frutas']['index'] ~> {'001':'abiu', '002':...} ",
+        "['brasil_frutas']['detalhes'] ~> {'brasil_frutas_clima':'Tropical'...} ",
+        "['brasil_frutas']['rawjsondata'] ~> rawjsondata info (*dev)",
+        "['brasil_frutas']['001'] ~> abiu (primeira)",
+        "['brasil_frutas']['027'] ~> cacau (última)"
+      ],
+      "autor":"codebabel",
+      "colaboradores":"",
+      "data":"30/05/2025",
+      "versao":"0.0.1",
+      "rjd_chave_global":[
+        "brasil_frutas",
+        "index",
+        "detalhes",
+        "rawjsondata"
+      ],
+      "rjd_chaves":19,
+      "frutas_faixa":"001/016",
+      "frutas_quantidade":"16",
+      "frutas_campos":[
+        "nome",
+        "origem",
+        "estado_produtor",
+        "imagem",
+        "usada_em",
+        "nome_cientifico"
+      ]
+    },
+
+    "001":{
+      "nome": "Abiu",
+      "origem": "Brasil",
+      "estado_produtor": "MG, SP, PR, SC",
+      "imagem": "https://i.postimg.cc/BbnZrmCv/abiu.png",
+      "usada_em": "in natura, doces, geleias, licores",
+      "nome_cientifico":" Pouteria caimito (Ruiz & Pav.) Radlk. Sinônimos incluem Lucuma caimito e Achras caimito."
+    },
+    "002":{
+      "nome": "Açaí",
+      "origem": "Brasil",
+      "estado_produtor": "PA, AM, MA",
+      "imagem": "https://i.postimg.cc/WzsRCtT6/a-a.png",
+      "usada_em": "sucos, vitaminas, cremes, tigelas",
+      "nome_cientifico":"Euterpe oleracea."
+    },
+    "003":{
+      "nome": "Cupuaçu",
+      "origem": "Brasil",
+      "estado_produtor": "AM, PA, MA",
+      "imagem": "https://i.postimg.cc/J7dVPrSJ/cupuacu.png",
+      "usada_em": "sucos, doces, cremes, sorvetes",
+      "nome_cientifico":"Theobroma grandiflorum."
+    },
+    "004":{
+      "nome": "Graviola",
+      "origem": "América Tropical (possivelmente Brasil)",
+      "estado_produtor": "BA, CE, PE",
+      "imagem": "https://i.postimg.cc/L8PJm0jC/graviola.png",
+      "usada_em": "sucos, sorvetes, doces",
+      "nome_cientifico":"Annona muricata L."
+    },
+    "005":{
+      "nome": "Mangaba",
+      "origem": "Brasil",
+      "estado_produtor": "SE, AL, BA, MG",
+      "imagem": "https://i.postimg.cc/L80F0HJG/mangaba.png",
+      "usada_em": "in natura, sucos, doces, sorvetes",
+      "nome_cientifico":"Hancornia speciosa Gomes."
+    },
+    "006":{
+      "nome": "Jaca",
+      "origem": "Índia (naturalizada no Brasil)",
+      "estado_produtor": "BA, RJ, SP",
+      "imagem": "https://i.postimg.cc/yYmFPdbY/jaca.png",
+      "usada_em": "in natura (fruto maduro e verde), pratos salgados (jaca verde)",
+      "nome_cientifico":" Artocarpus heterophyllus Lam."
+    },
+    "007":{
+      "nome": "Pitanga",
+      "origem": "Brasil",
+      "estado_produtor": "SP, RJ, MG, RS",
+      "imagem": "https://i.postimg.cc/3r29hVv8/pitanga.png",
+      "usada_em": "in natura, sucos, geleias, doces",
+      "nome_cientifico":"Eugenia uniflora L."
+    },
+    "008":{
+      "nome": "Cajá",
+      "origem": "América Tropical (possivelmente Brasil)",
+      "estado_produtor": "PI, CE, PB",
+      "imagem": "https://i.postimg.cc/SKNNSBsw/caja.png",
+      "usada_em": "sucos, sorvetes, doces, geleias",
+      "nome_cientifico":"Spondias mombin L."
+    },
+    "009":{
+      "nome": "Buriti",
+      "origem": "Brasil",
+      "estado_produtor": "MA, TO, MG",
+      "imagem": "https://i.postimg.cc/Kj7dgYpQ/buriti.png",
+      "usada_em": "sucos, óleos, doces, in natura",
+      "nome_cientifico":"Mauritia flexuosa L. f."
+    },
+    "010":{
+      "nome": "Maracujá",
+      "origem": "Brasil",
+      "estado_produtor": "SP, BA, SC",
+      "imagem": "https://i.postimg.cc/hj1kXj5s/maracuja.png",
+      "usada_em": "sucos, mousses, bolos, doces",
+      "nome_cientifico":"Passiflora edulis Sims."
+    },
+    "011":{
+      "nome": "Jabuticaba",
+      "origem": "Brasil",
+      "estado_produtor": "MG, SP, RJ, PR",
+      "imagem": "https://i.postimg.cc/jC0PBxsV/jabuticaba.png",
+      "usada_em": "in natura, sucos, geleias, licores",
+      "nome_cientifico":"Plinia cauliflora (Mart.) Kausel ou... Myrciaria cauliflora (Mart.) O. Berg"
+    },
+    "012":{
+      "nome": "Tamarindo",
+      "origem": "África (naturalizada no Brasil)",
+      "estado_produtor": "CE, BA, PI",
+      "imagem": "https://i.postimg.cc/tRP5twR0/tamarindo.png",
+      "usada_em": "sucos, doces, molhos",
+      "nome_cientifico":"Tamarindus indica L."
+    },
+    "013":{
+      "nome": "Umbu",
+      "origem": "Brasil",
+      "estado_produtor": "BA, SE, PE",
+      "imagem": "https://i.postimg.cc/15sp0zY6/umbu.png",
+      "usada_em": "in natura, sucos, geleias, doces",
+      "nome_cientifico":"Spondias tuberosa Arruda."
+    },
+    "014":{
+      "nome": "Acerola",
+      "origem": "América Central e do Sul (possivelmente Brasil)",
+      "estado_produtor": "CE, PE, BA",
+      "imagem": "https://i.postimg.cc/3NVQTq6Q/acerola.png",
+      "usada_em": "sucos, geleias, in natura",
+      "nome_cientifico":"Malpighia emarginata DC."
+    },
+    "015":{
+      "nome": "Goiaba",
+      "origem": "América Tropical (possivelmente Brasil)",
+      "estado_produtor": "SP, PE, MG",
+      "imagem": "https://i.postimg.cc/tT6M6gvw/goiaba.png",
+      "usada_em": "in natura, sucos, doces, geleias (goiabada)",
+      "nome_cientifico":" Psidium guajava L."
+    },
+    "016":{
+      "nome": "Cacau",
+      "origem": "Bacia Amazônica",
+      "estado_produtor": "BA, PA, ES",
+      "imagem": "https://i.postimg.cc/DzTgNcxj/cacau.png",
+      "usada_em": "chocolate, sucos, doces",
+      "nome_cientifico":"Theobroma cacao L."
+    }
+  }
+}
