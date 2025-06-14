@@ -41,7 +41,7 @@ direto do arquivo, foco Brasil.
 
 ## 🍓 Frutas Brasil
 ### brbo_frutas
-🔗 [rjd_brasil_bot_frutas](https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_bot_frutas.json)
+🔗 [rjd_brasil_bot_frutas](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_botanica/rjd_brasil_bot_frutas.json)
 
 ## 📅 Campos
 ### brbo_frutas_cam
@@ -69,7 +69,7 @@ OBS: link sendo atualizado e padronizado, as imagens serão todas do mesmo taman
 ## 🔥 Endpoint
 ### brbo_frutas_end
 ```
-https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_bot_frutas.json
+https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_botanica/rjd_brasil_bot_frutas.json
 ```
 [☝ Retornar ao início](#inicio)
 
@@ -90,7 +90,7 @@ https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/mai
 
 ## brasil_geo_2025
 ### brge_geo
-🔗 [rjd_brasil_geo_2025](https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_estados.json)
+🔗 [rjd_brasil_geo_2025](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json)
 
 ## 📅 Campos
 ### brge_geo_cam
@@ -121,7 +121,7 @@ data  : 30/05/25
 ## 🔥 Endpoint
 ### brge_geo_end
 ```
-https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_estados.json
+https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json
 ```
 [☝ Retornar ao início](#inicio)
 
@@ -138,7 +138,7 @@ https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/mai
 
 ## 👥 Brasil Nomes Femininos
 ### brge_nomes_fem
-🔗 [rjd_brasil_geo_nomesfemininos](https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_nomesfemininos.json)
+🔗 [rjd_brasil_geo_nomesfemininos](https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_nomes/rjd_brasil_nomes_femininos.json)
 
 ## 📅 Campos
 ### brge_nomesfem_cam
@@ -160,7 +160,7 @@ data  : 30/05/25
 ## 🔥 Endpoint
 ### brge_nomefem_end
 ```
-https://raw.githubusercontent.com/charles-cs50/brasil_rawjsondata/refs/heads/main/rjd_brasil_geo_nomesfemininos.json
+https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_nomes/rjd_brasil_nomes_femininos.json
 ```
 [☝ Retornar ao início](#inicio)
 
