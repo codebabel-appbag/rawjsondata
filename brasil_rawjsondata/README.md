@@ -336,7 +336,7 @@ estado_acre=dic["Brasil"]["001"]
 ```
 ```python
 rjd_index=dic["Brasil"]["index"]
-estado_index=rjd_index["rio de janeiro"] # ~> 019
+estado_index=rjd_index["rio_de_janeiro"] # ~> 019
 dados_rj=["Brasil"]["019"]
 print(rjd_index)
 
