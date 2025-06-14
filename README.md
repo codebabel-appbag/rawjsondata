@@ -12,11 +12,11 @@ Ao clicar nos links das pastas será direcionado para a categoria escolhida.
 ### 🔷 Brasil rawjsondata
 * [brasil rawjsondata](#br_rjd_f)
 #### 🔹 brasil_botanica
-* [brasil_botanica](#br_rjd_botanica)
+* [brasil_botanica]()
 #### 🔹 brasil_geografia
-* [brasil_geografia](#br_rjd_geografia)
+* [brasil_geografia]()
 #### 🔹 brasil_nomes
-* [brasil_nomes](#br_rjd_nomes)
+* [brasil_nomes]()
 
 ### 🔷 Games rawjsondata
 * [games_rawjsondata](#ga_rjd_f)
