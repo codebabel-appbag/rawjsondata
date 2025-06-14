@@ -2,10 +2,10 @@
 
 # rawjsondata
 ## 📁 pasta global
-```
+
 rawjsondata/rjd: pasta global que reune todos os projetos rawjsondata.
 Ao clicar nos links das pastas será direcionado para a categoria escolhida.
-```
+
 [![](https://i.postimg.cc/28XCfSZj/rjd-banner.png)]()
 
 # 🧭 RAWJSONDATA MENU
