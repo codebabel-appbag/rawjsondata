@@ -17,15 +17,15 @@ direto do arquivo, foco Brasil.
 * [Brasil Frutas/Campos](#brbo_frutas_cam)
 * [Brasil Frutas/Visualização](#brbo_frutas_vis)
 * [Brasil Frutas/Endpoint](#brbo_frutas_end)
-#### GEO
+#### GEOGRAFIA
 * [Brasil Geo 🥇](#brge)
 * [Brasil Geo/Campos](#brge_geo_cam)
 * [Brasil Geo/Visualização](#brge_geo_vis)
 * [Brasil Geo/Endpoint](#brge_geo_end)
-##### GEO_nomes
+##### NOMES
 * [Brasil Nomes Femininos](#brge_nomes_fem)
 * [Brasil Nomes Masculinos](#brge_nomes_mas)
-##### GEO_carros
+##### CARROS
 * [Brasil Carros Lançados](#brge_carros_lan)
 * [Brasil Carros Nacionais](#brge_carros_br)
 #### CLIENTES
