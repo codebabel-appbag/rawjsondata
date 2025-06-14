@@ -71,6 +71,10 @@ OBS: link sendo atualizado e padronizado, as imagens serão todas do mesmo taman
 ```
 https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_botanica/rjd_brasil_bot_frutas.json
 ```
+## 🔥 Endpoint (link curto)
+```
+https://bit.ly/43I9VS1
+```
 [☝ Retornar ao início](#inicio)
 
 [🧭 Retornar ao menu](#menu)
@@ -123,6 +127,10 @@ data  : 30/05/25
 ```
 https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_geografia/rjd_brasil_geo_estados.json
 ```
+## 🔥 Endpoint (link curto)
+```
+https://bit.ly/4jSK1zP
+```
 [☝ Retornar ao início](#inicio)
 
 ## 🔫 Gatilhos Geo
@@ -161,6 +169,10 @@ data  : 30/05/25
 ### brge_nomefem_end
 ```
 https://raw.githubusercontent.com/codebabel-appbag/rawjsondata/refs/heads/main/brasil_rawjsondata/brasil_nomes/rjd_brasil_nomes_femininos.json
+```
+## 🔥 Endpoint (link curto)
+```
+https://bit.ly/406CHcC
 ```
 [☝ Retornar ao início](#inicio)
 

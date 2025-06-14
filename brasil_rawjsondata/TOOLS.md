@@ -27,6 +27,12 @@ Servidor gratuíto de hospedagem de imagem, simples, completo e muito eficiente.
 ```
 [**postimg (Web)**](https://postimages.org/) (https://postimages.org/)
 
+### 🧩 Bit.ly (shortlink)
+```
+Encurtador de links, usado para minimizar links...
+```
+🔗 [**Bit.ly ~> (Web)**]( https://app.bitly.com/ ) ( https://app.bitly.com/ )
+
 ## 💻 local
 ### 🧩🐧 Gimp (Gnu Image Editor)
 > Correção de Gamma das imagens, filtros, curva e outros detalhes mais específiscos para tratamento de imagem.
